@@ -1,30 +1,59 @@
+.navbar-toggler{
+    border-radius: 100px;
+    border: 3px solid !important;
+}
 .jumbotron{
     background-attachment: fixed;
     height: 100vh;
     background-position: center;
     margin-bottom: 0;
 }
+
 h1{
     font-family: 'Festive', cursive;
 }
-.container {
-    background-color: rgba(0, 0, 0, 0.5);
+.container{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 60%;
+    color:#ffffff;
+    height: 100%;
+}
+.con1{
+    background-color: rgba(0, 0, 0, 0)!important;
     width: 60%;
     color:#ffffff;
     height: 400px;
 }
 
 .jumbo1{
-    background-image:url(https://images.pexels.com/photos/618848/pexels-photo-618848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=900);
+    background-image:url(https://images.pexels.com/photos/6003114/pexels-photo-6003114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 .jumbo2{
-    background-image:url(https://images.pexels.com/photos/6003114/pexels-photo-6003114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image:url(https://images.pexels.com/photos/618848/pexels-photo-618848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=900);
 }
 .jumbo3{
     background-image:url(https://images.pexels.com/photos/5589130/pexels-photo-5589130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.jumbo4{
+    background-image:url(https://images.pexels.com/photos/5589287/pexels-photo-5589287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 .footer{
     height: 40px;
 }
+
+@media only screen and (max-width: 990px) {
+    .fixed-top{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .container{
+        height: 50%;
+    }
+  }
+  @media only screen and (max-width: 940px) {
+
+    .container{
+        height: 90%;
+    }
+  }
